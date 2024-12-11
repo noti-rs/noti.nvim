@@ -27,6 +27,8 @@ For `lazy.nvim`:
 }
 ```
 
+And then install the tree-sitter parser using `nvim-treesitter`: `:TSInstall noti`.
+
 ## Contributing
 
 Want to improve the plugin? Open a new Pull Request with your feature!
