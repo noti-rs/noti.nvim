@@ -23,11 +23,17 @@ For `lazy.nvim`:
   opts = {},
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
+    -- Optional
+    "numToStr/Comment.nvim",
   }
 }
 ```
 
 And then install the tree-sitter parser using `nvim-treesitter`: `:TSInstall noti`.
+
+> [!NOTE]
+> Recommended to update tree-sitter by `:TSUpdate noti` command when the `noti.nvim` plugin
+> updates. It should avoid any problems with tree-sitter parser.
 
 ## Contributing
 
